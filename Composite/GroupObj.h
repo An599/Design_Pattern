@@ -40,7 +40,7 @@ struct Group :GraphicObject
 
 	void draw() override
 	{
-		std::cout << "Group  -" << name.c_str() << "  contains: " << std::endl;
+		std::cout << "Group  - " << name.c_str() << "  contains: " << std::endl;
 		for (auto&& o : objects)
 			o->draw();
 	}
